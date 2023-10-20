@@ -48,7 +48,7 @@ function update(score) {
         },
         data: [
             {
-                value: score * 100,
+                value: (score * 100).toFixed(2),
                 name: '@1'
             }
         ]
@@ -141,7 +141,7 @@ function update(score) {
         },
         data: [
             {
-                value: score * 100,
+                value: (score * 100).toFixed(2),
                 name: '@1'
             }
         ]
